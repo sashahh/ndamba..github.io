@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Reserved | Digital Creative Agency in Zimbabwe | Social Media Marketing & Web Design,<br> Reserved is a leading digital creative agency based in Zimbabwe. Our services include social media marketing, web design, branding, mobile application development, photography, and graphic design. Contact us today to elevate your online presence and enhance your brand image.<br> | Developed by Tsakane Shiri" />
+   <meta name="keywords" content="Digital creative agency, Social media marketing, Web design, Branding, Mobile application development, Photography, Graphic design, Zimbabwe, Online presence, Brand image, Marketing services, Creative solutions, Professional design, Visual identity, Creative branding, tsakane, web, development, websites, branding,rsrvd,reserved,batsi,simba,mazorodze,olivia," />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Reserved</title>
+    
+    <link rel="icon" type="image/png" href="image/logoico.ico" sizes="16x16">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+
+        #preloader {
+          position: fixed; 
+          top: 0; 
+          left: 0; 
+          right: 0; 
+          bottom: 0; 
+          background: rgb(255, 255, 255) url(image/loader.gif) no-repeat center center; 
+          z-index: 9999; 
+  
+        }
+  
+        #status {  
+          width: 200px;  
+          height: 200px;  
+          position: absolute;  
+          left: 50%;   /* centers the loading animation horizontally one the screen */  
+          top: 50%;   /* centers the loading animation vertically one the screen */  
+  
+        }
+  
+      </style>
+  
+      <script type="text/javascript">
+  
+        window.onload = function() { // makes sure the whole site is loaded 
+  
+            document.getElementById("status").style.display = "none"; // will first fade out the loading animation 
+  
+            document.getElementById("preloader").style.display = "none"; // will fade out the white DIV that covers the website. 
+  
+        }
+  
+      </script>   
+</head>
+<body>
+    <div id="preloader">
+      
+    <div id="status">&nbsp;</div></div> 
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="https://omex.co.zw/" class="logo" id="logo"><img src="image/logo.png" alt=""></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#gallery">gallery</a>
+        <a href="#blog">blog</a>
+        <a href="#contact">contact</a>
+        <a href="#clients">clients</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="https://www.facebook.com/ReservedBC"><div id="search-btn" class="fab fa-facebook-f"></div></a>
+        <a href="https://www.twitter.com"><div id="cart-btn" class="fab fa-twitter"></div></a> 
+        <a href="https://www.youtube.com"><div id="login-btn" class="fab fa-youtube"></div></a> 
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>56.97</span> </h3>
+        <a href="#" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<section class="home" id="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <h3>We offer cutting edge,corporate and personal branding services.</h3>
+                <a href="#contact" class="btn"><img src="image/Contact_Us.png" alt=""></a>
+            </div>
+            <div class="image">
+                <img src="image/hoodie.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>We are your plug for all your promotional and advertorial material</h3>
+                <a href="#contact" class="btn"><img src="image/Contact_Us.png" alt=""></a>
+            </div>
+            <div class="image">
+                <img src="image/flyer.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>We offer competitive and affordable premise branding services to make you stand out.</h3>
+                <a href="#contact" class="btn"><img src="image/Contact_Us.png" alt=""></a>
+            </div>
+            <div class="image">
+                <img src="image/velvet01.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+<div class="heading">
+    <h1 id="services">Services</h1>
+    <p> <a href="#home">home >></a> services </p>
+</div>
+<section id="backg">
+    <nav class="nav0">
+                        <nav class="nav" id="nav">
+                            <div class="box1">
+                                <h3>Digital Media Strategy</h3>  
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" title="View Less" alt="" width="32" height="32" onclick="show2()">
+                                </div>
+                            </div>
+                        
+                            <div class="line" id="line"></div>
+                            <p id="para">A cutting edge strategy that completely transforms your key perfomance indicators in the long run and gives you a digital footprint.</p>
+                            <img id="med" src="image/media.png" alt="">
+                            <br>
+                            <br>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a>           
+                        </nav>
+                        <nav class="nav1" id="nav1">
+                            <div class="box1">
+                                <h3>Digital Media Strategy</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" title="View More" width="32" height="32" onclick="show1()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">A cutting edge strategy that completely transforms your key perfomance indicators in the long run and gives you a digital footprint.</p>
+                            
+                             <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center></a>
+                         </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav2" id="nav2">
+                            <div class="box1">
+                                <h3>Social Media</h3>
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show3()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                        <br>
+                        <p id="para">Support, management and content creation for your social media platforms to increase your reach and capitalise on the strength of social media marketing.</p>
+                        <br>    
+                        <div id="image">
+                            <img id="med" src="image/social.jpg" alt="">
+                            <img id="med" src="image/social1.png" alt="">
+                            </div>
+                        <br>
+                        <br>
+                        <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+                        <nav class="nav3" id="nav3">
+                            <div class="box1">
+                                <h3>Social Media</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show4()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Support, management and content creation for your social media platforms to increase your reach and capitalise on the strength of social media marketing.</p>
+               
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav33" id="nav33">
+                            <div class="box1">
+                                <h3>Web Development</h3> 
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show5()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                            <br>
+                            <p id="para">Website building and maintenance on a consistent basis, for a perfect user friendly experience.</p>
+                            <br>
+                            <div id="image">
+                                <img id="med" src="image/web1.png" alt="">
+                                <img id="med" src="image/web2.png" alt="">
+                                </div>
+                            <br>
+                            <br> <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+                        <nav class="nav4" id="nav4">
+                            <div class="box1">
+                                <h3>Web Development</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show6()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Website building and maintenance on a consistent basis, for a perfect user friendly experience.</p>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav5" id="nav5">
+                            <div class="box1">
+                                <h3>Mobile Application Development</h3>
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show7()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Creation and development of mobile friendly and innovation applications that suit user needs.</p>
+                            <br>
+                            <div id="image">
+                                <img id="med" src="image/mobile1.png" alt="">
+                                <img id="med" src="image/mobile2.png" alt="">
+                                </div>
+                            <br>
+                            <br>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a>    
+                        </nav>
+                        <nav class="nav6" id="nav6">
+                            <div class="box1">
+                                <h3>Mobile Application Development</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show8()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Creation and development of mobile friendly and innovation applications that suit user needs.</p>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav7" id="nav7">
+                            <div class="box1">
+                                <h3>Photography</h3>
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show9()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Provision of quality photography and videography services for events, products and casual shoots.</p>
+                            <br>
+                            <div id="image">
+                                <img id="med" src="image/baby.png" alt="">
+                                <img id="med" src="image/outdoor.png" alt="">
+                                </div>
+                            <br>
+                            <br>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a>          
+                        </nav>
+                        <nav class="nav8" id="nav8">
+                            <div class="box1">
+                                <h3>Photography</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show10()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Provision of quality photography and videography services for events, products and casual shoots.</p>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav9" id="nav9">
+                            <div class="box1">
+                                <h3>Branding</h3>
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show11()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Provision of branding services including premise branding promotional material, corporate branding services, brand management and consultancy service.</p>
+                            <br>
+                            <div id="image">
+                                <img id="med" src="image/image11.jpg" alt="image">
+                                <img id="med" src="image/velvet_branding.png" alt="">
+                                </div>
+                            <br>
+                            <br>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a>          
+                        </nav>
+                        <nav class="nav10" id="nav10">
+                            <div class="box1">
+                                <h3>Branding</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show12()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">Provision of branding services including premise branding promotional material, corporate branding services, brand management and consultancy service.</p>
+                
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+<nav class="nav0">
+                        <nav class="nav11" id="nav11">
+                            <div class="box1">
+                                <h3>Design</h3>
+                                <div class="btn" id="btn">
+                                    <img id="plus" src="image/icon5.png" alt="" width="32" height="32" onclick="show13()">
+                                </div>
+                            </div>
+                        
+                            <div class="line1" id="line1"></div>
+                            <p id="para">You can entrust us with your brand image through our exclusive graphic design services that make you stand out.</p>
+                            <div id="image">
+                                <img id="med" src="image/sans_bourne_logo.png" alt="">
+                                <img id="med" src="image/southern_chicken.png" alt="">
+                                </div>
+                            <br>
+                            <br>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a>          
+                        </nav>
+                        <nav class="nav12" id="nav12">
+                            <div class="box1">
+                                <h3>Design</h3>
+                                <div class="btn" id="btn">
+                                    <img src="image/icon6.png" alt="" width="32" height="32" onclick="show14()">
+                                </div>
+                            </div>
+                            <div class="line1" id="line1"></div>
+                            <p id="para">You can entrust us with your brand image through our exclusive graphic design services that make you stand out.</p>
+                            <a href="#contact"><center><img id="contact_btn" src="image/Contact_Us.png" alt=""></center> </a> 
+                        </nav>
+</nav>   
+
+</section>
+    <script>
+function show1(){
+    document.getElementById('nav1').style.display='none';
+    document.getElementById('nav').style.display='block';
+}
+function show2(){
+    document.getElementById('nav').style.display='none';
+    document.getElementById('nav1').style.display='block';
+}
+function show4(){
+    document.getElementById('nav3').style.display='none';
+    document.getElementById('nav2').style.display='block';
+}
+function show3(){
+    document.getElementById('nav2').style.display='none';
+    document.getElementById('nav3').style.display='block';
+}
+function show6(){
+    document.getElementById('nav4').style.display='none';
+    document.getElementById('nav33').style.display='block';
+}
+function show5(){
+    document.getElementById('nav33').style.display='none';
+    document.getElementById('nav4').style.display='block';
+}
+function show8(){
+    document.getElementById('nav6').style.display='none';
+    document.getElementById('nav5').style.display='block';
+}
+function show7(){
+    document.getElementById('nav5').style.display='none';
+    document.getElementById('nav6').style.display='block';
+}
+function show10(){
+    document.getElementById('nav8').style.display='none';
+    document.getElementById('nav7').style.display='block';
+}
+function show9(){
+    document.getElementById('nav7').style.display='none';
+    document.getElementById('nav8').style.display='block';
+}
+function show12(){
+    document.getElementById('nav10').style.display='none';
+    document.getElementById('nav9').style.display='block';
+}
+function show11(){
+    document.getElementById('nav9').style.display='none';
+    document.getElementById('nav10').style.display='block';
+}
+function show14(){
+    document.getElementById('nav12').style.display='none';
+    document.getElementById('nav11').style.display='block';
+}
+function show13(){
+    document.getElementById('nav11').style.display='none';
+    document.getElementById('nav12').style.display='block';
+}
+    </script>
+
+<div class="heading">
+    <h1 id="about">about us</h1>
+    <p> <a href="#home">home >></a> about </p>
+</div>
+
+<section class="about">
+
+    <div class="image">
+        <img src="image/about.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <p>
+            Reserved is a Zimbabwe based digital creative agency with key interests in social media marketing, web design, branding, mobile application development, photography and graphic design.
+        </p>
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h1 class="title"> our <span>gallery</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/01.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/02.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/03.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/04.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/05.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/06.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<div class="heading">
+    <h1 id="blog">our blogs</h1>
+    <p> <a href="#home">home >></a> blogs </p>
+</div>
+
+<section class="blogs">
+
+     <h1 class="title"> our <span>blogs</span><!-- <a href="#">view all >></a> </h1> -->
+
+    <div class="box-container">
+
+        <!-- <div class="box">
+            <div class="image">
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>DANCEHALL IS A CULTURE IT DOESN'T COLLAPSE IT REVOLVES AND SELF REVITALISES. </h3>
+                <p>In a now deleted post a renowned blogger Plot Mhako was saying dancehall culture especially riddim compilations in Jamaica is on the collapse due to the impact of other submerging genres a point which I found untrue, Jamaican dancehall is actually on a revival path if the latest released projects are anything to go by.
+                    Due to the recent upburst of a subgenre termed Trap Dancehall fronted by notable figures like Rygin King,Squash,Daddy1 and more dancehall heads so the need to revive the real hardcore type of thumping sound 90's Dancehall tbey call it. 
+                    Recently vetaran producer NotNice released a riddim compilation called Cool Reminder which featured seasoned dancehall heads like Beenieman,Busy Signal, Elephant Man and new school crooners like Jafrass, D'yani,Tatik and arguably the only artist who can release 365 songs a year in the form of Chronic Law noted by how he has been releasing a song or 2 everyday,plainly the Law Boss as he is fondly known has been releasing a song per day for years now. Cool Reminder really lived up to the billing of reminding the world that dancehall is immortal.
+                    High flying new generation producer Dunw3ll famed for working with stars like Masicka,Dexta Daps and more also released a killer project called Play Station riddim which featured Vybz Kartel, Stefflon Don, the hot Shenseea, Grammy winner Sean Paul and Moyann. Having the World Boss as Vybz Kartel is fondly known is like to Zimbabwe having Winky D on a J.M.P production,"exactly what dancehall needs for revival" 
+                    Dancehall is a culture it doesnt collapse it revolves and self revitalises. 
+                    I won't even talk about Dj Frass Dancehall Night riddim which featured nuggets like Mavado,Beenieman,Ding Dong and more, mangoma haaite collapse yamoreva iyi.
+                    We shall soon talk about how Cymplex has "single handedly" revived dancehall in one project. Mangoma hambofe aya #inhema #riddimculture #music #newshubzw #rsrvd #dancehall#zimdancehall</p>
+            </div>
+        </div> -->
+
+
+    </div>
+
+</section>
+
+<div class="heading">
+    <h1 id="contact">contact us</h1>
+    <p> <a href="#home">home >></a> contact </p>
+</div>
+
+<section class="contact">
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+263 775 843 122</p>
+            <p>+263 775 353 142</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>sales@rsrvd.co.zw</p>
+            <p>admin@rsrvd.co.zw</p>
+        </div>
+  
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>Cnr Angwa and Robson Manyika</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form  action="https://formspree.io/f/mknavvrl" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+          
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15192.464944818117!2d31.0488063!3d-17.8331852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a569987e8685%3A0xd7c7588f004bd747!2sTotal%20Tools%20-%20Ottawa%20House!5e0!3m2!1sen!2szw!4v1678991960495!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+</section>
+<div class="heading">
+    <h1 id="clients">clients</h1>
+    <p> <a href="#home">home >></a> clients </p>
+</div>
+<div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="" alt="logo1">
+      </div>
+      <div class="slide">
+        <img src="image/SansBorneDistribution.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/ErmaEngineering.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/velvet.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/hangover.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/capital_foods.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/MatovaLogo.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/school.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/SouthernFriedChickenLogo.png" alt="logo">
+      </div>
+      <div class="slide">
+        <img src="image/Daruler.png" alt="logo">
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#services"> <i class="fas fa-arrow-right"></i> services</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#gallery"> <i class="fas fa-arrow-right"></i> gallery</a>
+            <a href="#blog"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact</a>
+            <a href="#clients"> <i class="fas fa-arrow-right"></i> clients</a>
+        </div>
+
+        <div class="box">
+            <h3>Partnership</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Websites </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Social Media Marketing </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Branding </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Photography </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Design </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/ReservedBC"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://www.twitter.com"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <!-- <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a> -->
+        </div>
+
+        <div class="box">
+            <!-- <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <input type="submit" value="subscribe" class="btn">
+            </form> -->
+            <img src="image/logo.png" class="payment" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit"> <div class="credit">Copyright 2023 © All rights Reserved. Developed by <span>sasha ndamba</div></section>
+
+<!-- footer section ends -->
+
+
+<script>
+      function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- custom css file link  -->
+<script src="js/script.js"></script>
+
+</body>
